@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map component tests should render correctly with props 1`] = `
+<Styled(Map)
+  animate={true}
+  attributionControl={true}
+  center={
+    Array [
+      50.041187,
+      21.999121,
+    ]
+  }
+  doubleClickZoom={true}
+  dragging={true}
+  easeLinearity={0.35}
+  scrollWheelZoom={true}
+  zoom={15}
+  zoomControl={true}
+>
+  <ForwardRef(Leaflet(TileLayer))
+    url="https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png"
+  />
+  <ForwardRef(Leaflet(Marker))
+    position={
+      Array [
+        50.041187,
+        21.999121,
+      ]
+    }
+  >
+    <ForwardRef(Leaflet(Popup))>
+      Your current location
+    </ForwardRef(Leaflet(Popup))>
+  </ForwardRef(Leaflet(Marker))>
+</Styled(Map)>
+`;

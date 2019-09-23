@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component tests should render correctly with no props 1`] = `
+<Fragment>
+  <Memo()
+    coords={
+      Object {
+        "latitude": 50.041187,
+        "longitude": 21.999121,
+      }
+    }
+    data-test="Map"
+  />
+  <r
+    enableHighAccuracy={false}
+    lazy={false}
+    maximumAge={0}
+    onError={[Function]}
+    onSuccess={[Function]}
+    timeout={Infinity}
+  />
+</Fragment>
+`;

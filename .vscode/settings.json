@@ -1,0 +1,6 @@
+{
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "flow.useNPMPackagedFlow": true,
+  "flow.runOnAllFiles": true
+}

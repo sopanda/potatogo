@@ -1,0 +1,8 @@
+.Field::placeholder {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.Danger {
+  border: 1px solid red !important;
+}

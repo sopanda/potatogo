@@ -1,0 +1,79 @@
+{
+  "name": "potatogo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "cogo-toast": "^3.1.0",
+    "flow-bin": "^0.101.0",
+    "i18next": "^17.0.3",
+    "leaflet": "^1.5.1",
+    "leaflet-routing-machine": "^3.2.12",
+    "react-dom": "^16.8.6",
+    "react-geocode": "^0.1.2",
+    "react-geolocation": "^1.0.4",
+    "react-i18next": "^10.11.0",
+    "react-leaflet": "^2.4.0",
+    "react-loader-spinner": "^2.3.0",
+    "react-redux": "^7.1.0-alpha.5",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.4",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.1",
+    "redux-thunk": "^2.3.0",
+    "storybook-react-router": "^1.0.5",
+    "styled-components": "^4.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
+    "flow": "flow",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.1.8",
+    "@storybook/addon-links": "^5.1.8",
+    "@storybook/addons": "^5.1.8",
+    "@storybook/react": "^5.1.8",
+    "cypress": "^3.3.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
+    "flow-typed": "^2.5.2",
+    "jest-cli": "^20.0.4",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.8.6",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-mock-store": "^1.5.3"
+  }
+}
